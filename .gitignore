@@ -1,0 +1,29 @@
+# Dados brutos (não versionar — baixe do Kaggle)
+data/*.csv
+data/*.xlsx
+data/*.parquet
+data/*.db
+
+# Exceto arquivos de documentação de dados
+!data/README.md
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Credenciais
+.env
+*.key
